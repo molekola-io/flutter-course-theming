@@ -1,0 +1,14 @@
+# Flutter Launcher Icons:
+# Official Documentation: https://github.com/fluttercommunity/flutter_launcher_icons
+# For running this package launch the following commands:
+#   > flutter pub get
+#   > flutter pub run flutter_launcher_icons:main
+# In case of split configuration for multiple customer (Different icons),
+# duplicate this file, specify the assets to be used as described in documentation
+# than launch specifiyng the running file in this way:
+#   > flutter pub get
+#   > flutter pub run flutter_launcher_icons:main -f <flutter_launcher_icons_custom_file>
+flutter_icons:
+  image_path: "assets/images/molekola-launcher.png"
+  ios: true
+  android: true
